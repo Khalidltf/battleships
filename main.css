@@ -20,7 +20,7 @@
   width: 500px;
   height: 60px;
   margin: 30px 0;
-  background-color: yellow;
+  background-color: limegreen;
   display: flex;
   align-items: center;
 }
@@ -75,4 +75,24 @@
   width: 50px;
   height: 10px;
   margin: 3px;
+}
+
+#computer .destroyer,
+#computer .submarine,
+#computer .cruiser,
+#computer .battleship,
+#computer .carrier {
+  background-color: pink;
+}
+
+.hover {
+  background-color: grey !important;
+}
+
+.boom {
+  background-color: red !important;
+}
+
+.empty {
+  background-color: grey;
 }
